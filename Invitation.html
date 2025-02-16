@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation - MiG & Cookie</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #fafafa;
+            color: #333;
+        }
+        .hero {
+            position: relative;
+            background-image: url('images/Capture.PNG'); /* Add a romantic background image */
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency */
+            z-index: 1;
+        }
+
+        .hero h1, .hero p, .countdown {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        .countdown {
+            font-size: 2rem;
+            margin: 20px 0;
+            color: #fac01fe5;
+        }
+
+        .story, .details, .gallery, .rsvp, .guestbook, .contact {
+            padding: 40px 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #f8e800;
+            border: none;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .details p {
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+        }
+
+        .details i {
+            margin-right: 10px;
+            color: #f8b400;
+        }
+
+        .story {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>MiG & Cookie</h1>
+        <p>Join Us on Our Journey to Forever</p>
+        <div class="countdown" id="countdown">Days until the big day: 2 </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="story container">
+        <h2>Our Story</h2>
+        <p></p>
+    </section>
+
+    <!-- Event Details -->
+    <section class="details container">
+        <h2>Event Details</h2>
+        <p><i class="fas fa-calendar-alt"></i><strong>Date:</strong>&nbsp;18th Feb</p>
+        <p><i class="fas fa-clock"></i><strong>Time:</strong>&nbsp;09:00</p>
+        <p><i class="fas fa-map-marker-alt"></i><strong>Venue:</strong>&nbsp;Vrindavan, Utter Pradesh, India</p>
+        <p><i class="fas fa-info-circle"></i>Traditional is preffered, you can wear western too.</p>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="gallery container">
+        <h2>Gallery</h2>
+        <div class="row">
+            <div class="col-md-4"><img src="images/vector-indian-wedding-invitation-card-template_679930-321.avif" alt="Gallery Image 1"></div>
+            <div class="col-md-4"><img src="images/cute-indian-couple-cartoon-in-traditional-dress-posing-for-wedding-invitation-card-design-free-vector (1).jpg" alt="Gallery Image 2"></div>
+            <div class="col-md-4"><img src="images/cute-indian-couple-cartoon-in-traditional-dress-posing-for-wedding-invitation-card-design-free-vector.jpg" alt="Gallery Image 3"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>&copy; 2025 MiG & Cookie . All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
